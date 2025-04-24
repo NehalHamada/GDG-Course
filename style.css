@@ -85,7 +85,8 @@ body {
       font-weight: bold;
 
       &:hover {
-        text-decoration: underline;
+        background-color: aliceblue;
+        color: black;
       }
     }
   }
