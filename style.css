@@ -162,6 +162,10 @@ body {
       align-items: center;
       padding: 20px;
       background-color: transparent;
+      img {
+        -webkit-filter: brightness(0) invert(1);
+        filter: brightness(0) invert(1);
+      }
       ul {
         list-style: none;
         display: flex;
