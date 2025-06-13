@@ -306,7 +306,7 @@ body {
 
 /* Home */
 .home {
-  background-image: url("../../../../Assets/imgs/hero4.png");
+  background-image: url("/Assets/imgs/hero4.png");
   background-size: cover;
   min-height: 600px;
 }
@@ -382,7 +382,7 @@ body {
 /* Blog */
 .blog {
   position: relative;
-  background-image: url("../../../../Assets/imgs/glass.jpg");
+  background-image: url("/Assets/imgs/glass.jpg");
   background-size: cover;
   min-height: 200px;
 }
@@ -456,13 +456,13 @@ body {
   left: 20px;
 }
 .offer .container .box-1 {
-  background-image: url("../../../../Assets/imgs/b17.jpg");
+  background-image: url("/Assets/imgs/b17.jpg");
   background-size: cover;
   width: 626px;
   min-height: 344px;
 }
 .offer .container .box-2 {
-  background-image: url("../../../../Assets/imgs/b10.jpg");
+  background-image: url("/Assets/imgs/b10.jpg");
   background-size: cover;
   width: 626px;
   min-height: 344px;
