@@ -306,7 +306,7 @@ body {
 
 /* Home */
 .home {
-  background-image: url("/assets/imgs/hero4.png");
+  background-image: url("../imgs/hero4.png");
   background-size: cover;
   min-height: 600px;
 }
@@ -382,7 +382,7 @@ body {
 /* Blog */
 .blog {
   position: relative;
-  background-image: url("/assets/imgs/glass.jpg");
+  background-image: url("..//imgs/glass.jpg");
   background-size: cover;
   min-height: 200px;
 }
@@ -456,13 +456,13 @@ body {
   left: 20px;
 }
 .offer .container .box-1 {
-  background-image: url("/assets/imgs/b17.jpg");
+  background-image: url("../imgs/b17.jpg");
   background-size: cover;
   width: 626px;
   min-height: 344px;
 }
 .offer .container .box-2 {
-  background-image: url("/assets/imgs/b10.jpg");
+  background-image: url("../imgs/b10.jpg");
   background-size: cover;
   width: 626px;
   min-height: 344px;
@@ -500,4 +500,4 @@ body {
   color: #fff;
 }
 
-/*Task 6*//*# sourceMappingURL=style.css.map */
+/*Task 6*/ /*# sourceMappingURL=style.css.map */
