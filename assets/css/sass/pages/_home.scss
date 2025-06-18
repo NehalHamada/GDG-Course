@@ -254,8 +254,8 @@ body {
 }
 */
 
-/* Task 5 */
-/* Header */
+/* Task 5 
+/* Header 
 .header {
   position: fixed;
   width: 100%;
@@ -289,7 +289,7 @@ body {
     }
   }
 }
-/* Home */
+/* Home 
 .home {
   background-image: url("/assets/imgs/hero4.png");
   background-size: cover;
@@ -316,7 +316,7 @@ body {
     }
   }
 }
-/* Content */
+/* Content 
 .content {
   .container {
     .box {
@@ -367,7 +367,7 @@ body {
     }
   }
 }
-/* Feature */
+/* Feature 
 .feature {
   background-color: #f8fafc;
   .container {
@@ -389,7 +389,7 @@ body {
     }
   }
 }
-/* Blog */
+/* Blog 
 .blog {
   position: relative;
   background-image: url("/assets/imgs/glass.jpg");
@@ -417,7 +417,7 @@ body {
     }
   }
 }
-/* Arrival */
+/* Arrival 
 .arrival {
   background-color: #f8fafc;
   .container {
@@ -447,7 +447,7 @@ body {
     }
   }
 }
-/* Offer */
+/* Offer 
 .offer {
   .container {
     .box {
@@ -492,7 +492,7 @@ body {
     }
   }
 }
-/* Contact */
+/* Contact 
 .contact {
   background-color: $blackColor;
   padding: 10px 0;
@@ -516,7 +516,7 @@ body {
     }
   }
 }
-/* Footer */
+/* Footer 
 .footer {
   .container {
     .row {
@@ -536,4 +536,90 @@ body {
     }
   }
 }
+*/
+
 /*Task 6*/
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+
+  .box {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    font-size: 14px;
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+
+      .name {
+        font-weight: bold;
+        margin: 0;
+      }
+
+      .verified {
+        font-size: 12px;
+        opacity: 0.8;
+        margin: 0;
+      }
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .quote {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+  }
+
+  .box1 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #8e44ad;
+  }
+
+  .box2 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #34495e;
+  }
+
+  .box3 {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #ccc;
+  }
+
+  .box4 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #ccc;
+  }
+
+  .box5 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: black;
+  }
+}
